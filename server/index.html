@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Generative Gams</title>
+  </head>
+  <body>
+    <div class=header-container>
+      <h1>Generative Gams - Jam Session Creator</h1>
+    </div>
+    <div class="player-container">
+      <div id="controls-container">
+        <div class="audio-container">
+          <audio
+          id="controls"
+          controls
+          loop
+          src="<%= require('./silence.mp3') %>">
+          </audio>
+          <p id="tone-load-feedback"></p>
+          <p><span id="note-played"></span></p>
+        </div>
+      </div>
+      <div class=footer>
+        <p>using <a id="version-link" href="" target="_blank"></a></p>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  background-color: #645E9D;
+  color: #bbb;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  color: white;
+}
+
+#controls-container {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: white;
+}
+
+label {
+  color: white;
+}
